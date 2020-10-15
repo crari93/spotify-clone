@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Spotify Clone!!!</h1>
       {/*Spotify Logo*/}
-      {/*Login with spotify button */}
+      {/*Login with spotify button*/}
     </div>
   );
 }
