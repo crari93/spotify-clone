@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Login from "./Components/Login";
 
 function App() {
   return (
     <div className="App">
-      <h1>Spotify Clone!!!</h1>
       {/*Spotify Logo*/}
       {/*Login with spotify button*/}
+      <Login />
     </div>
   );
 }
