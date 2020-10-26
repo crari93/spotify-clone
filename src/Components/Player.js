@@ -4,12 +4,12 @@ import SideBar from "./Sidebar";
 import Body from "./Body";
 import Footer from "./Footer";
 
-export default function Player() {
+export default function Player({ spotify }) {
   return (
     <div className="player">
       <div className="player__body">
         <SideBar />
-        <Body />
+        <Body spotify={spotify} />
       </div>
 
       <Footer />
