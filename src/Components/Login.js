@@ -9,7 +9,7 @@ export default function Login() {
         src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
         alt=""
       />
-      <a href={accessUrl}>LOGIN WITH SPOTIFY</a>
+      <a href={accessUrl}>LOGIN TO THE CLONE APP WITH YOUR SPOTIFY ACCOUNT</a>
     </div>
   );
 }
