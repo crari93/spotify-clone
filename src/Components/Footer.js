@@ -14,7 +14,11 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer__left">
-        <img src="" alt="" className="footer__albumLogo" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/7/74/Usher_-_Confessions_album_cover.jpg"
+          alt=""
+          className="footer__albumLogo"
+        />
         <div className="footer__songInfo">
           <h4>Yeah!</h4>
           <p>Usher</p>
